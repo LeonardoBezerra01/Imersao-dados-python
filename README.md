@@ -85,14 +85,14 @@ Exibidas no topo da página principal, refletindo instantaneamente os filtros ap
 
 A base de dados (dados-imersao-final.csv) contém as seguintes colunas utilizadas na análise:
 
-        | Coluna | Descrição | Tipo de Dado |
-        |:-------|:----------|:-------------|
-        |  SSH   |    TCP    |     22       |
-        | HTTP   |    TCP    |     80       |
-        
 ---
 
-## Instalação e execução
+## Instalação e Execução
+
+Siga o passo a passo abaixo para rodar a aplicação:
+
+### 1. Clone o repositório
+Faça o download dos arquivos ou clone o repositório usando o Git:
 
 ---
 
