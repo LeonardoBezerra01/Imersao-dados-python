@@ -13,7 +13,6 @@ O dashboard permite filtrar informações por ano, nível de experiência e tipo
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Dicionário de Dados](#dicionário-de-dados)
 - [Instalação e Execução](#instalação-e-execução)
-- [Contribuição](#contribuição)
 
 
 ---
@@ -83,20 +82,24 @@ Exibidas no topo da página principal, refletindo instantaneamente os filtros ap
 
 ## Dicionário de Dados
 
-A base de dados (dados-imersao-final.csv) contém as seguintes colunas utilizadas na análise:
+Descrição das principais colunas do dataset(`dados-imersao-final.csv`) utilizadas:
+
+| Coluna             | Tipo       | Descrição |
+|--------------------|------------|-----------|
+| `ano`              | Inteiro    | Ano de referência do salário |
+| `cargo`            | Texto      | Cargo exercido pelo profissional |
+| `senioridade`      | Texto      | Nível de senioridade (Junior, Pleno, Senior, Executivo) |
+| `contrato`         | Texto      | Tipo de contrato de trabalho  |
+| `tamanho_empresa`  | Texto      | Porte da empresa (Pequena, Média, Grande) |
+| `usd`              | Numérico   | Salário anual em dólares americanos |
+| `remoto`           | Texto      | Regime de trabalho (Remoto, Híbrido, Presencial) |
+| `residencia_iso3`  | Texto      | Código ISO do país de residência (usado para plotagem no mapa) |
+
 
 ---
 
 ## Instalação e Execução
 
-Siga o passo a passo abaixo para rodar a aplicação:
-
-### 1. Clone o repositório
-Faça o download dos arquivos ou clone o repositório usando o Git:
-
----
-
-## Contribuição
 
 ---
 
