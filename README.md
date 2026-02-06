@@ -100,6 +100,37 @@ Descrição das principais colunas do dataset(`dados-imersao-final.csv`) utiliza
 
 ## Instalação e Execução
 
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/LeonardoBezerra01/Imersao-dados-python.git
+cd Imersao-dados-python
+```
+
+### 2. Crie um ambiente virtual
+
+```bash
+python -m venv .venv
+.venv\Scripts\Activate     #Windows
+source .venv/bin/activate  #Linux/Mac
+```
+
+### 3. Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute a aplicação
+
+```bash
+streamlit run app.py
+```
+
+### 5. Acesse no navegador
+
+O Streamlit abrirá automaticamente uma aba no seu navegador padrão. Caso não abra, acesse manualmente: http://localhost:8501
 
 ---
 
+Este projeto foi desenvolvido durante a Imersão Dados com Python da Alura.
